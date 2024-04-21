@@ -10,15 +10,29 @@ document.addEventListener("DOMContentLoaded", function() {
     const menuBtn = document.querySelector(".menu-btn");
     const menu = document.getElementById("menu");
     const mesaTitulo = document.getElementById("mesa-titulo");
+    const modalConfirm = document.getElementById("modal-confirm");
+    const confirmarResetBtn = document.getElementById("confirmar-reset");
+    const cancelarResetBtn = document.getElementById("cancelar-reset");
 
     function toggleMenu() {
         menu.classList.toggle("show-menu");
     }
 
     resetearBtn.addEventListener("click", function() {
+        modalConfirm.style.display = "block"; // Mostrar el modal de confirmación
+    });
+
+    // Función para confirmar el reset
+    confirmarResetBtn.addEventListener("click", function() {
         bebidasLista.innerHTML = "";
         bebidasPorMesa[currentTable] = [];
         guardarDatosLocalStorage(); // Guardar datos en el localStorage
+        modalConfirm.style.display = "none"; // Ocultar el modal
+    });
+
+    // Función para cancelar el reset
+    cancelarResetBtn.addEventListener("click", function() {
+        modalConfirm.style.display = "none"; // Ocultar el modal
     });
 
     confirmarBtn.addEventListener("click", function() {
