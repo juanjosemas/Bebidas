@@ -40,7 +40,7 @@ h1 {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: transparent;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -110,6 +110,7 @@ h1 {
 
 #bebida-input {
     font-size: 1.2em; /* Ajusta el tamaño del campo de ingreso de bebida */
+    border-radius: 15px;
 }
 
 /* Resto de estilos... */
@@ -154,7 +155,7 @@ h1 {
 .menu-btn {
     font-size: 30px;
     opacity: 0.8;
-    border-radius: 25%;
+    border-radius: 15px;
 }
 
 /* Botones del mensaje cuando haces reset */
