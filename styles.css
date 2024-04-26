@@ -50,6 +50,7 @@ h1 {
 #resetear-btn {
     font-size: 0.9em; /* Ajusta el tamaño del botón Reset */
     margin-right: auto; /* Mueve el botón Reset hacia la izquierda */
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 
@@ -61,6 +62,7 @@ h1 {
     flex-grow: 1; /* Hace que el input ocupe el espacio disponible */
     margin-right: 5px; /* Separación entre el input y el botón Confirmar */
     font-family: Piedra;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 .footer button#confirmar-btn {
@@ -69,6 +71,7 @@ h1 {
     font-weight: bold;
     border-radius: 15%;
     color: green;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 .fa-check-circle{
@@ -85,17 +88,20 @@ h1 {
     margin-right: 10px; /* Separación entre el botón X y la bebida */
     font-weight: bold; /* Pone en negrita el botón X */
     font-size: 1em; /* Ajusta el tamaño del boton */
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 .btn-sumar {
   margin-left: 20px; /* Separación entre los botones + y - */
     font-weight: bold; /* Pone en negrita los botones + y - */
     font-size: 1.5em; /* Ajusta el tamaño de los botones */
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 .btn-restar {
     margin-left: 20px; /* Separación entre los botones + y - */
     font-weight: bold; /* Pone en negrita los botones + y - */
     font-size: 1.2em; /* Ajusta el tamaño de los botones */
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 
@@ -156,6 +162,7 @@ h1 {
     font-size: 30px;
     opacity: 0.8;
     border-radius: 15px;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 /* Botones del mensaje cuando haces reset */
@@ -190,6 +197,7 @@ h1 {
     font-size: 20px;
     font-family: Lobster;
     border-radius: 20%;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 #cancelar-reset{
@@ -198,6 +206,7 @@ h1 {
     font-size: 20px;
     font-family: Lobster;
     border-radius: 20%;
+    box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.70);
 }
 
 
