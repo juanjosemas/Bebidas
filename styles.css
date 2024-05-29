@@ -220,8 +220,8 @@ h1 {
 }
 
 .ico {
-    float: left;
-    margin-top: -20px;
+    margin-top: -40px;
+    margin-left: 20px;
     border-radius: 50%;
     animation-name: logo;
     animation-duration: 3s;
